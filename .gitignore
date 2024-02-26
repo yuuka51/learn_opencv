@@ -161,3 +161,6 @@ cython_debug/
 
 # cascade
 *.xml
+
+# image_folder
+result_folder/
