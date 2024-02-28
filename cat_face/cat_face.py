@@ -22,7 +22,7 @@ while True:
     # 検出された顔に矩形を描画  
     for (x, y, w, h) in faces:  
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)  
-        cv2.putText(frame, 'face', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)  
+        cv2.putText(frame, 'cat face', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)  
   
     # 結果を表示  
     cv2.imshow('frame', frame)  
